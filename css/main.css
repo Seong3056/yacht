@@ -105,4 +105,9 @@
     right: 0;
     width: 200px;
     height: 50px;
+    transform: rotate(320deg);
+    transition: 3s;
+}
+#main #game #roll #dice {
+    transform: rotate(0);    
 }
