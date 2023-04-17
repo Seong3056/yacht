@@ -105,9 +105,18 @@
     right: 0;
     width: 200px;
     height: 50px;
-    transform: rotate(320deg);
-    transition: 3s;
+    
 }
-#main #game #roll #dice {
-    transform: rotate(0);    
+#main #game #roll .show {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    translate: -50%;
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    transform: scale(1.05);
+    
 }
